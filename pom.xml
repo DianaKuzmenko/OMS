@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>${org.springframework-version}</version>
+			<!-- <version>${org.springframework-version}</version> -->
 			<exclusions>
 				<!-- Exclude Commons Logging in favor of SLF4j -->
 				<exclusion>
@@ -45,13 +45,13 @@
 			<artifactId>spring-webmvc</artifactId>
 			<!--<version>${org.springframework-version}</version> -->
 		</dependency>
-		<!-- Roo dependencies -->
+		<!-- Roo dependencies 
 		<dependency>
 			<groupId>org.springframework.roo</groupId>
 			<artifactId>org.springframework.roo.annotations</artifactId>
-			<!-- <version>${org.springframework.roo-version}</version> -->
+			<version>${org.springframework.roo-version}</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 
 		<!-- AspectJ -->
 		<dependency>
