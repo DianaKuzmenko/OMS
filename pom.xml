@@ -30,14 +30,14 @@
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<!-- <version>${org.springframework-version}</version> 
+			<artifactId>spring-context</artifactId> -->
+			<!-- <version>${org.springframework-version}</version> -->
 			<exclusions>
-				<!-- Exclude Commons Logging in favor of SLF4j 
+				<!-- Exclude Commons Logging in favor of SLF4j --> <!--
 				<exclusion>
 					<groupId>commons-logging</groupId>
 					<artifactId>commons-logging</artifactId>
-				</exclusion>
+				</exclusion> -->
 			</exclusions> -->
 		</dependency>
 		<dependency>
@@ -45,7 +45,8 @@
 			<artifactId>spring-webmvc</artifactId>
 			<!--<version>${org.springframework-version}</version> -->
 		</dependency>
-		<!-- Roo dependencies 
+		<!-- Roo dependencies --> 
+		<!--
 		<dependency>
 			<groupId>org.springframework.roo</groupId>
 			<artifactId>org.springframework.roo.annotations</artifactId>
