@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+	<!---<modelVersion>4.0.0</modelVersion>
 	<groupId>com.softserveinc</groupId>
 	<artifactId>edu</artifactId>
 	<name>OMS</name>
 	<packaging>war</packaging>
+	<version>1.0.0-BUILD-SNAPSHOT</version> -->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.springframework.security.migrate</groupId>
+	<artifactId>spring-security-migrate-3-to-4-xml</artifactId>
+	<name>sample</name>
+	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>1.6</java-version>
-		<org.springframework-version>4.1.5.RELEASE</org.springframework-version>
-		<org.springframework.roo-version>1.0.2.RELEASE</org.springframework.roo-version>
+		<!--<org.springframework-version>4.1.5.RELEASE</org.springframework-version>
+		<org.springframework.roo-version>1.0.2.RELEASE</org.springframework.roo-version>-->
 		<org.aspectj-version>1.9.4</org.aspectj-version>
-		<org.slf4j-version>1.5.10</org.slf4j-version>
+		<org.slf4j-version>1.7.10</org.slf4j-version>
 		<spring-plugin.version>1.0.0.BUILD-SNAPSHOT</spring-plugin.version>
 	</properties>
 	<dependencies>
